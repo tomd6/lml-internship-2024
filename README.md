@@ -4,6 +4,12 @@ https://github.com/google-deepmind/alphageometry
 Its goal is to transform the alpha geometry model from a LLM to a VLM. 
 For this purpose, I created multiple scripts which purpose was to generate random geometric figures.
 To use the files present here, please clone the project and put them here.
+
+This script implements a UDP server capable of receiving text prompts and images, then using a multimodal 
+language model to generate responses based on the prompts and images. The model used is based on Hugging Face's 
+transformers library and the Llava project.
+(this file require [llava-med environnement](https://github.com/microsoft/LLaVA-Med)) 
+
 ## Files Description
 
 Here is each custom script added to the base AlphaGeometry repo and their description.
